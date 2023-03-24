@@ -1,0 +1,65 @@
+/*add a background picture*/
+body{
+    background-image: url("https://img95.699pic.com/xsj/0o/gn/x0.jpg!/fh/300");
+    background-repeat: no-repeat;
+    background-position:fixed;
+    background-size: cover;
+    text-align: center;
+}
+/* button style */
+button {
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: rgb(72, 122, 236);
+    border: 2px solid rgb(181, 153, 153);
+    border-radius: 5px;
+    box-sizing: border-box;
+    color:rgb(244, 245, 247);
+    cursor: pointer;
+    display: inline-block;
+    font-family:'Times New Roman', Times, serif; 
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 20px;
+    padding:10px;
+    position: relative;
+    text-align: center;
+    
+}
+#clear {
+    background-color:rgb(20, 148, 141) ;
+}
+#convert {
+    background-color: rgb(19, 72, 194);
+}
+/* when you move your mouse at the top of the button, it's change color to green */
+#convert:hover{
+    background-color: rgb(28, 160, 110);
+}
+h1{
+    margin-top: 10%;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+.container{
+    width: 90%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    
+}
+input{
+    display: block;
+    border: 2px solid rgb(19, 72, 194);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 38%;
+    margin-top: 10px;
+    font-size: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+/* represents the placeholder text form */
+::-webkit-input-placeholder{
+    color:rgb(247, 248, 248)
+}
